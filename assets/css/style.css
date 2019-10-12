@@ -1,4 +1,11 @@
 body {
-    background-img: url ("Sophie+Tea+Art+Screensaver.jpg");
     background-color: bisque;
+    text-align: center;
+}
+
+#title {
+    font-size: 26px;
+    color: teal;
+    background-color: white 
+    
 }

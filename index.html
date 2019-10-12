@@ -9,28 +9,40 @@
         <title>Crystal Collector</title>
     </head>
     <body>
-        <h1>Crystal Collector!</h1>
+        <h1 id="title">Crystal Collector!</h1>
+        <br>
         <div id="instructions">
             <p>You will be given a random number at the start of the game.</p>
+            <br>
             <p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <br>
             <p>You win the game by matching your total score to the random number; You lose the game if your total score goes above the random number.</p>
+            <br>
             <p>The value of each crystal is hidden from you until you click on it.</p>
+            <br>
             <p>The value of the crystals changes each time you start a new game.</p>
+            <br>
         </div>
-        <div id="number">
+        <div>
+            <p>Random Number</p>
+        </div>
+        <div id="randomnumber">
             <p>0</p>
         </div>
+        <br>
         <div id="score">
-            <p id="wins">Wins: 0</p>
-            <p id="losses">Losses: 0</p>
+            <p>Wins</p>
+            <p id="wins">0</p>
+            <p>Losses</p>
+            <p id="losses">0</p>
         </div>
         <div id=crystals>
-            <img src="assets/images/kisspng-crystal-purple-amethyst-5aec5a52ae50f0.163032051525439058714.png" height="100">
-            <img src="assets/images/magic-crystal-rAorzR7-600.png" height="100">
-            <img src="assets/images/natural-crystal-group-oJBXAX0-600.png" height="100">
-            <img src="assets/images/png-crystal-crystal-png-500.png" height="100"> 
+            <img src="assets/images/kisspng-crystal-purple-amethyst-5aec5a52ae50f0.163032051525439058714.png" class="purple" height="100" alt="purple">
+            <img src="assets/images/magic-crystal-rAorzR7-600.png" class="black" height="100" alt="black">
+            <img src="assets/images/natural-crystal-group-oJBXAX0-600.png" class="white" height="100" alt="white">
+            <img src="assets/images/png-crystal-crystal-png-500.png" class="blue" height="100" alt="blue"> 
         </div>
-        <div id="total">
+        <div>
             <p>Your total score is:</p>
         </div>
         <div id="current">
