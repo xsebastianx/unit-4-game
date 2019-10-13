@@ -1,20 +1,20 @@
 $( document ).ready(function(){
 
-    var Random=Math.floor(Math.random()*102+19)
+    let Random=Math.floor(Math.random()*102+19)
     
     
     $("#randomnumber").text(Random);
     
     
-    var num1= Math.floor(Math.random()*12+1)
-    var num2= Math.floor(Math.random()*12+1)
-    var num3= Math.floor(Math.random()*12+1)
-    var num4= Math.floor(Math.random()*12+1)
+    let  num1= Math.floor(Math.random()*12+1)
+    let num2= Math.floor(Math.random()*12+1)
+    let num3= Math.floor(Math.random()*12+1)
+    let num4= Math.floor(Math.random()*12+1)
     
     
-    var playerTotal= 0; 
-    var wins= 0;
-    var losses = 0;
+    let playerTotal= 0; 
+    let wins= 0;
+    let losses = 0;
     
   
   $("#wins").text(wins);
